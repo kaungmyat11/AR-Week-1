@@ -1,0 +1,28 @@
+Implement Vuforia
+
+Trackable found - ARObject.SetActive(true); /
+		  ARObject.transform.localPosition = new Vector3(0, 0, 0);
+
+Trackable lost  - gameObject.transform.rotation = Quaternion.identity;
+		  ARObject.transform.position = ARObjPos.transform.position;
+
+
+
+Import Lean Touch
+Import NativeGallery
+
+Add Lean Touch into Hierarchy
+Add Lean Scale on AR Object
+
+Build
+
+Week 2 Lectures 
+
+1. SetActive(true) in Trackable found
+2. ARObject.transform.localPosition = new Vector3(0, 0, 0);
+3. In else clause, gameObject.transform.rotation = new Vector3(0, 0, 0); and ARObject.transform.position = ARObjectPosition.transform.position;
+4. Import Lean Touch
+5. Import Native Gallery
+6. Add Lean Touch into Hierarchy
+7. Add Lean Scale on AR Object
+7. Build and Run
